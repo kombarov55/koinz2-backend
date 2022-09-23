@@ -1,0 +1,55 @@
+[
+  {
+    "id": "дворник",
+    "name": "Дворник",
+    "src": "./Icons/suitcase.png",
+    "requiresClothesWithIds": ["куртка-и-штаны"],
+    "requiresRealEstateWithIds": ["наркопритон"]
+  },
+  {
+    "id": "разнорабочий",
+    "name": "Разнорабочий",
+    "src": "./Icons/suitcase.png",
+    "requiresEducationWithIds": ["основное-общее"],
+    "requiresClothesWithIds": ["рабочий-комбинезон"],
+    "requiresGadgetsWithIds": ["нокия-3310"],
+    "requiresRealEstateWithIds": ["хостел"]
+  },
+  {
+    "id": "таксист",
+    "name": "Таксист",
+    "src": "./Icons/suitcase.png",
+    "requiresEducationWithIds": ["основное-общее"],
+    "requiresClothesWithIds": ["опрятная-футболка-и-джинсы"],
+    "requiresGadgetsWithIds": ["дешёвый-смартфон"],
+    "requiresRealEstateWithIds": ["сьемная-однушка-на-окраине-города"],
+    "requiresVehiclesWithIds": []
+  },
+  {
+    "id": "юрист",
+    "name": "Юрист",
+    "src": "./Icons/suitcase.png",
+    "requiresEducationWithIds": ["среднее-профессиональное"],
+    "requiresClothesWithIds": ["рубашка-и-брюки"],
+    "requiresGadgetsWithIds": ["смартфон-среднего-сегмента", "средний-ноутбук"],
+    "requiresRealEstateWithIds": ["трёшка"]
+  },
+  {
+    "id": "директор",
+    "name": "Директор",
+    "src": "./Icons/suitcase.png",
+    "requiresEducationWithIds": ["высшее"],
+    "requiresClothesWithIds": ["костюм-тройка"],
+    "requiresGadgetsWithIds": ["хороший-ноутбук", "айфон-13"],
+    "requiresRealEstateWithIds": ["трёшка"]
+  },
+  {
+    "id": "бизнесмен",
+    "name": "Бизнесмен",
+    "src": "./Icons/suitcase.png",
+    "requiresEducationWithIds": ["высшее"],
+    "requiresClothesWithIds": ["элитный-костюм"],
+    "requiresGadgetsWithIds": ["макбук-про", "айфон-13"],
+    "requiresRealEstateWithIds": ["особняк-в-элитном-поселке"]
+  }
+]

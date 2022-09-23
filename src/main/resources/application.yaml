@@ -1,0 +1,8 @@
+server:
+  port: 8666
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/koinzz
+    username: koinz
+    password: koinz
+  jpa.hibernate.naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
