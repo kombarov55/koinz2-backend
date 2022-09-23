@@ -1,4 +1,4 @@
-package ru.mail.nakombarov.referallinksbackend;
+package ru.mail.nakombarov.koinzbackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

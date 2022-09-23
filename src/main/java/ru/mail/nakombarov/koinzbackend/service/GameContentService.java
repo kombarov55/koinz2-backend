@@ -1,4 +1,4 @@
-package ru.mail.nakombarov.referallinksbackend.service;
+package ru.mail.nakombarov.koinzbackend.service;
 
 import lombok.SneakyThrows;
 import org.json.JSONArray;

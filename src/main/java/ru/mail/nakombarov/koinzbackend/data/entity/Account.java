@@ -1,4 +1,4 @@
-package ru.mail.nakombarov.referallinksbackend.data.entity;
+package ru.mail.nakombarov.koinzbackend.data.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

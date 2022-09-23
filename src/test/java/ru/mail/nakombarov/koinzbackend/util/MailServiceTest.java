@@ -1,4 +1,4 @@
-package ru.mail.nakombarov.referallinksbackend.util;
+package ru.mail.nakombarov.koinzbackend.util;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

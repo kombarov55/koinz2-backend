@@ -1,4 +1,4 @@
-package ru.mail.nakombarov.referallinksbackend;
+package ru.mail.nakombarov.koinzbackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package ru.mail.nakombarov.referallinksbackend.data.domain.shop;
+package ru.mail.nakombarov.koinzbackend.data.domain.shop;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Gadget {
+public class Vehicle {
     String id;
     String src;
     String name;

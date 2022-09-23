@@ -1,4 +1,4 @@
-package ru.mail.nakombarov.referallinksbackend.data.domain.activity;
+package ru.mail.nakombarov.koinzbackend.data.domain.activity;
 
 
 import lombok.AllArgsConstructor;
