@@ -15,5 +15,5 @@ public class Education {
     String id;
     String name;
     String src;
-    List<String> requiresEducation;
+    List<String> requiresEducations;
 }
