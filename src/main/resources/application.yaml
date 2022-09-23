@@ -2,7 +2,7 @@ server:
   port: 8666
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/koinzz
+    url: jdbc:postgresql://localhost:5432/koinz
     username: koinz
     password: koinz
   jpa.hibernate.naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
