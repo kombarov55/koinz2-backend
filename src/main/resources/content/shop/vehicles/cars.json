@@ -1,14 +1,14 @@
 [
   {
     "id": "рено-логан",
-    "src": "",
+    "src": "https://avatars.mds.yandex.net/get-autoru-vos/6050740/122f69e53e0d869970604808d80896c0/456x342n",
     "name": "Рено логан",
     "description": "Неубиваемый автомобиль, идеален для работы в такси",
     "price": 30000
   },
   {
     "id": "форд-фокус",
-    "src": "",
+    "src": "https://st1.zr.ru/_ah/img/HL21bqij5RYm9U1_3UIH7Q=s800",
     "name": "Форд фокус",
     "description": "Автомобиль среднего класса, взятый в кредит на 15 лет",
     "price": 100000
@@ -16,7 +16,7 @@
 
   {
     "id": "бмв",
-    "src": "",
+    "src": "https://s0.rbk.ru/v6_top_pics/media/img/0/47/756504609782470.jpg",
     "name": "БМВ",
     "description": "БМВ последней модели",
     "price": 300000
@@ -24,7 +24,7 @@
 
   {
     "id": "майбах",
-    "src": "",
+    "src": "https://avatars.mds.yandex.net/get-vertis-journal/4220003/2021-04-27-9208afacb9ce479c947c987a33a304e4.jpg_1622737406431/orig",
     "name": "Майбах",
     "description": "Майбах, все в восторге от вида этого автомобиля ",
     "price": 800000

@@ -1,7 +1,7 @@
 [
   {
     "id": "apache",
-    "src": "",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/AH-64D_Apache_Longbow.jpg/274px-AH-64D_Apache_Longbow.jpg",
     "name": "Apache",
     "description": "Вертолёт apache",
     "price": 400000
