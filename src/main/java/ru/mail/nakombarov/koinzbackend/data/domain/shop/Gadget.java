@@ -4,12 +4,13 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import ru.mail.nakombarov.koinzbackend.data.domain.CommonEntity;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Gadget {
+public class Gadget implements CommonEntity {
     String id;
     String src;
     String name;

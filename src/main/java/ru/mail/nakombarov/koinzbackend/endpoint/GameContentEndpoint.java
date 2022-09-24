@@ -19,6 +19,7 @@ public class GameContentEndpoint {
     public String get() {
         long start = System.currentTimeMillis();
         String str = gameContentService.getGameContent();
+
         log.info("Get content in {} ms", System.currentTimeMillis() - start);
         return str;
     }

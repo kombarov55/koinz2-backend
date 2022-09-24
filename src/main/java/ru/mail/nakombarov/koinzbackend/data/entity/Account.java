@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.util.Date;
 
 @Entity
 @Data
@@ -17,12 +18,11 @@ public class Account {
 
     @Id
     String id;
-
     int money;
-
     int xp;
-
+    int maxMoneyAccumulation;
+    int maxXpAccumulation;
     String learnedEducationIds;
-
     String currentWorkId;
+    Date registrationDate;
 }

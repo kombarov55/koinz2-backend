@@ -1,28 +1,28 @@
 [
   {
     "id": "допотопный-ноутбук",
-    "src": "",
-    "name": "Ноутбук, позволяющий за 30 сек открыть страницу браузера, но лучше чем ничего.",
-    "description": "",
-    "price": 0
+    "src": "https://media.istockphoto.com/photos/old-and-well-used-laptop-computer-picture-id137300154",
+    "name": "Допотопный ноутбук",
+    "description": "Ноутбук, позволяющий за 30 сек открыть страницу браузера, но лучше чем ничего.",
+    "price": 250
   },
   {
     "id": "средний-ноутбук",
-    "src": "",
+    "src": "https://mobile-review.com/nb/articles/2005/image/cebit2005-samsung-notepc/q30-2.jpg",
     "name": "Средний ноутбук",
     "description": "Позволяет спокойно пользоваться браузером",
-    "price": 0
+    "price": 500
   },
   {
     "id": "хороший-ноутбук",
-    "src": "",
+    "src": "https://3dnews.ru/assets/external/illustrations/2015/06/01/915010/EeeBook1.jpg",
     "name": "Хороший ноутбук",
     "description": "Этот компьютер позволит вам осуществлять всю необходимую работу без лагов",
-    "price": 0
+    "price": 25000
   },
   {
     "id": "макбук-про",
-    "src": "",
+    "src": "https://img.computerunivers.net/images/400x400/909065069D2B03D9252947CA8E0F7026.jpg",
     "name": "Макбук-Про",
     "description": "Последняя версия макбука, максимальный набор опций.",
     "price": 100000

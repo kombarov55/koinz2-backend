@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Data
@@ -16,9 +17,13 @@ public class Work {
     String id;
     String name;
     String src;
-    List<String> requiresEducationWithIds;
-    List<String> requiresVehiclesWithIds;
-    List<String> requiresGadgetsWithIds;
-    List<String> requiresRealEstateWithIds;
-    List<String> requiresClothesWithIds;
+    String description;
+    int moneyWage;
+    int xpWage;
+    List<String> requiresEducationWithIds = new ArrayList<>();
+    List<String> requiresVehiclesWithIds = new ArrayList<>();
+    List<String> requiresGadgetsWithIds = new ArrayList<>();
+    List<String> requiresRealEstateWithIds = new ArrayList<>();
+    List<String> requiresClothesWithIds = new ArrayList<>();
+    List<String> requirements = new ArrayList<>();
 }
