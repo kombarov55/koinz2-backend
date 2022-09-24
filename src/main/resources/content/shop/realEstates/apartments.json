@@ -1,35 +1,35 @@
 [
   {
     "id": "наркопритон",
-    "src": "",
+    "src": "https://tverigrad.ru/wp-content/uploads/2022/05/%D0%9D%D0%90%D0%A0%D0%9A%D0%9E%D0%9F%D0%A0%D0%98%D0%A2%D0%9E%D0%9D4-768x512.jpg",
     "name": "Наркопритон",
     "description": "Ваш стартовый дом",
     "price": 0
   },
   {
     "id": "хостел",
-    "src": "",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Hostel_Dormitory.jpg",
     "name": "Хостел",
     "description": "Хостел, в комнате 8 потных работяг",
     "price": 400
   },
   {
     "id": "сьемная-однушка-на-окраине-города",
-    "src": "",
+    "src": "https://3.404content.com/1/C6/C5/2325235256689952118/fullsize.jpg",
     "name": "Сьемная однушка на окраине города",
     "description": "1 комната, кухня, ванная, унитаз",
     "price": 5000
   },
   {
     "id": "трёшка",
-    "src": "",
+    "src": "http://www.myhome.ru/uploads/public/idea/1/6983/interior/123174/520x0resize_interior72766_72_1446085262.jpg",
     "name": "Трёшка",
     "description": "Трёшка, снятая в ипотеку",
     "price": 15000
   },
   {
     "id": "апартаменты",
-    "src": "",
+    "src": "https://www.slrealty.ru/system/uploads/pictures/108597/amp_New_1_1.jpg",
     "name": "Апартаменты",
     "description": "Апартаменты в центре города",
     "price": 90000
