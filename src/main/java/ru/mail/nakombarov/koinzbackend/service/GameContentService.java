@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 import ru.mail.nakombarov.koinzbackend.data.domain.CommonEntity;
 import ru.mail.nakombarov.koinzbackend.data.domain.activity.Work;
 import ru.mail.nakombarov.koinzbackend.data.domain.gamecontent.GameContent;
+import ru.mail.nakombarov.koinzbackend.data.entity.Account;
 import ru.mail.nakombarov.koinzbackend.repository.GameContentRepository;
 
 import java.util.List;
@@ -23,8 +24,9 @@ public class GameContentService {
     private GameContentRepository gameContentRepository;
 
     @SneakyThrows
-    public String getGameContent() {
+    public GameContent getGameContent(Account account) {
         GameContent gameContent = gameContentRepository.getCopy();
+        gameContent.setAccount(account);
         for (Work work : gameContent.getActivity().getWorks()) {
             List<String> requirements = Stream.of(
                             toRequirements(work.getRequiresEducationWithIds(), gameContentRepository.educations),
@@ -36,7 +38,7 @@ public class GameContentService {
                     .collect(Collectors.toList());
             work.setRequirements(requirements);
         }
-        return new ObjectMapper().writeValueAsString(gameContent);
+        return gameContent;
     }
 
     @SneakyThrows

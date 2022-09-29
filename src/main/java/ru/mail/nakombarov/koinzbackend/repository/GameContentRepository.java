@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.ResourceUtils;
 import ru.mail.nakombarov.koinzbackend.data.domain.CommonEntity;
 import ru.mail.nakombarov.koinzbackend.data.domain.activity.Education;
+import ru.mail.nakombarov.koinzbackend.data.domain.activity.Work;
 import ru.mail.nakombarov.koinzbackend.data.domain.gamecontent.GameContent;
 import ru.mail.nakombarov.koinzbackend.data.domain.gamecontent.Shop;
 import ru.mail.nakombarov.koinzbackend.data.domain.shop.Clothes;
@@ -28,21 +29,23 @@ public class GameContentRepository {
 
     private final ObjectMapper objectMapper = new ObjectMapper();
 
-    private JSONObject gameContent;
+    private JSONObject gameContentJson;
+    private GameContent gameContent;
 
     public Map<String, Education> educations;
     public Map<String, Clothes> clothes;
     public Map<String, Gadget> gadgets;
     public Map<String, RealEstate> realEstates;
     public Map<String, Vehicle> vehicles;
+    public Map<String, Work> works;
 
     @PostConstruct
     @SneakyThrows
     public void init() {
         File contentDir = ResourceUtils.getFile("classpath:content");
-        gameContent = dirToJson(contentDir, new JSONObject());
+        gameContentJson = dirToJson(contentDir, new JSONObject());
 
-        GameContent gameContentDeserialized = objectMapper.readValue(gameContent.toString(), GameContent.class);
+        GameContent gameContentDeserialized = objectMapper.readValue(gameContentJson.toString(), GameContent.class);
         Shop shop = gameContentDeserialized.getShop();
 
         educations = toMap(gameContentDeserialized.getActivity().getEducations());
@@ -62,11 +65,18 @@ public class GameContentRepository {
         vehicles.putAll(toMap(shop.getVehicles().getCars()));
         vehicles.putAll(toMap(shop.getVehicles().getYachts()));
         vehicles.putAll(toMap(shop.getVehicles().getHelicopters()));
+
+        works = new HashMap<>();
+        works.putAll(toMap(gameContentDeserialized.getActivity().getWorks()));
     }
 
     @SneakyThrows
     public GameContent getCopy() {
-        return objectMapper.readValue(gameContent.toString(), GameContent.class);
+        return objectMapper.readValue(gameContentJson.toString(), GameContent.class);
+    }
+
+    public GameContent getSharedInstance() {
+        return gameContent;
     }
 
     @SneakyThrows

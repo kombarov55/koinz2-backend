@@ -6,3 +6,10 @@ spring:
     username: koinz
     password: koinz
   jpa.hibernate.naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+vk:
+  api-version: 5.103
+app:
+  hidden-properties-path: C:\Users\nikolay\IdeaProjects\other\koinz2-backend\src\main\resources\hidden.properties
+
+logging.level.org.apache.http: DEBUG
+logging.level.httpclient.wire: DEBUG
